@@ -72,6 +72,15 @@
 # Decrease Volume
 "pactl set-sink-volume @DEFAULT_SINK@ -1%"
    XF86AudioLowerVolume
+
+#Increase Brightness
+"brillo -q -A 10"
+   XF86MonBrightnessUp
+
+#Decrease Brightness
+"brillo -q -U 10"
+   XF86MonBrightnessDown
+
 ##################################
 # End of xbindkeys configuration #
 ##################################
