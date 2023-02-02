@@ -81,6 +81,14 @@
 "brillo -q -U 10"
    XF86MonBrightnessDown
 
+#Screen shot
+"flameshot full -p ~/Pictures/Screenshots"
+   Print
+
+#Snip screen shot
+"flameshot gui -p ~/Pictures/Screenshots"
+   Shift + Print
+
 ##################################
 # End of xbindkeys configuration #
 ##################################
