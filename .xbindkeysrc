@@ -81,6 +81,14 @@
 "brillo -q -U 10"
    XF86MonBrightnessDown
 
+#Increase Keyboard Brightness
+"brightnessctl --device='tpacpi::kbd_backlight' set +1"
+   XF86MonBrightnessUp + Shift
+
+#Decrease Keyboard Brightness
+"brightnessctl --device='tpacpi::kbd_backlight' set 1-"
+   XF86MonBrightnessDown + Shift
+
 #Screen shot
 "flameshot full -p ~/Pictures/Screenshots"
    Print
